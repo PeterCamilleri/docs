@@ -5,3 +5,5 @@ prove to be of some use. Most will be available in both Open Office (.odt) and
 Portable Document (.pdf) formats.
 
 * REGEX - a one page summary of regular expressions derived from many sources.
+* Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
+Dalbert.
