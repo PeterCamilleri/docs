@@ -15,6 +15,8 @@ mapping of all eight two input AND gates to their OR gate shadows.
 (Open Office and PDF)
 * poker_hands - You gotta know when to hold'em, know when to fold'em, know when
 it's OK to sing, know when it's not...
+* ps_2 - This folder contains rare documents regarding the old PS/2
+interface for keyboard and mouse.
 * REGEX - a one page summary of regular expressions derived from many sources.
 * Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
 Dalbert.
