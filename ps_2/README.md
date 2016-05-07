@@ -15,3 +15,6 @@ aspects of the PS/2 and AT keyboards and their interfacing requirements.
 * The_PS_2_Mouse_Interface - This document is a thorough review of all
 aspects of the PS/2 mice and their interfacing requirements.
 
+Also of interest:
+
+An excellent posting on Mouse protocols: ( http://everything2.com/title/Mouse+protocol )
