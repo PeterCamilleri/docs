@@ -17,6 +17,11 @@ mapping of all eight two input AND gates to their OR gate shadows.
 it's OK to sing, know when it's not...
 * ps_2 - This folder contains rare documents regarding the old PS/2
 interface for keyboard and mouse.
+* radiation - A handy chart for comprehending the level of risk posed by
+various doses of radiation. I like to keep this on hand for when I run into
+fear crazed loonies who claim that a single atom of plutonium is lethal.
+However: if you're basing safety policy on a PNG graphic file, and things go
+horribly wrong, you've only yourself to blame.
 * REGEX - a one page summary of regular expressions derived from many sources.
 * Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
 Dalbert.
