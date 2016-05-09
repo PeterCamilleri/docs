@@ -7,21 +7,18 @@ little, secure library in the cloud.
 Most items will be available in both Open Office (.odt) and Portable Document
 (.pdf) formats.
 
+#### Folders
+* misc - As the name inplies, this is miscellaneous stuff.
+* ps_2 - This folder contains rare documents regarding the old PS/2
+interface for keyboard and mouse.
+
+#### Files
 * ASCII_5_ways - The first 128 code points formerly called ASCII.
 * de_morgan - In boolean logic, DeMorgan's theorem can be used to translate an
 AND gate into its OR gate equivalent. This handy picture (.jpg) shows the
 mapping of all eight two input AND gates to their OR gate shadows.
 * Minitest_Cheatsheet - a one page summary of the Minitest testing framework.
 (Open Office and PDF)
-* poker_hands - You gotta know when to hold'em, know when to fold'em, know when
-it's OK to sing, know when it's not...
-* ps_2 - This folder contains rare documents regarding the old PS/2
-interface for keyboard and mouse.
-* radiation - A handy chart for comprehending the level of risk posed by
-various doses of radiation. I like to keep this on hand for when I run into
-fear crazed loonies who claim that a single atom of plutonium is lethal.
-However: if you're basing safety policy on a PNG graphic file, and things go
-horribly wrong, you've only yourself to blame.
 * REGEX - a one page summary of regular expressions derived from many sources.
 * Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
 Dalbert.
