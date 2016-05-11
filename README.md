@@ -19,6 +19,8 @@ AND gate into its OR gate equivalent. This handy picture (.jpg) shows the
 mapping of all eight two input AND gates to their OR gate shadows.
 * Minitest_Cheatsheet - a one page summary of the Minitest testing framework.
 (Open Office and PDF)
+* rake_snippets - A markdown file with little rake tasks that have proven
+useful id gem development. Suitable for copy and pasting (and editing).
 * REGEX - a one page summary of regular expressions derived from many sources.
 * Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
 Dalbert.
