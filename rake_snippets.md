@@ -36,7 +36,7 @@ end
 ```
 This example is accessed via:
 
-  $ rake integration
+    $ rake integration
 
 ### Documentation
 
