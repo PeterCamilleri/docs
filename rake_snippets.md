@@ -77,6 +77,12 @@ Run this via:
 
     $ rake reek
 
+Note that the output is directed toward the file reek.txt without any fancy
+colorization or other special effects. This is part of my workflow in that
+I prefer to have a record of code smells at various points in the development
+and saving results to a text file makes it easy to version control the smell
+reports as the project progresses.
+
 ### Debug/Test Console
 
 Now there are several ways to run an irb console from rake, with test code
