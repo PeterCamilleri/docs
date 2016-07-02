@@ -14,6 +14,8 @@ interface for keyboard and mouse.
 
 #### Files
 * ASCII_5_ways - The first 128 code points formerly called ASCII.
+* cmdhelp - A brief overview of the options available in the Windows standard
+CLI processor. Useful when you need to get things done in that operating system.
 * de_morgan - In boolean logic, DeMorgan's theorem can be used to translate an
 AND gate into its OR gate equivalent. This handy picture (.jpg) shows the
 mapping of all eight two input AND gates to their OR gate shadows.
