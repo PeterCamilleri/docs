@@ -27,3 +27,4 @@ useful in gem development. Suitable for copy and pasting (and editing).
 * REGEX - a one page summary of regular expressions derived from many sources.
 * Ruby_Class_Summary - a picture (.jpg) of the Ruby Class Hierarchy. By Jerome
 Dalbert.
+* The_Reek_Cheat_Sheet.txt - A little guide I put together to help using Reek.

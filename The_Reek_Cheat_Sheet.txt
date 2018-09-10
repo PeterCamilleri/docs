@@ -1,0 +1,38 @@
+
+Basic Smell Options
+  enabled  Boolean
+  exclude  an array of strings that will be converted into regular expressions
+
+# :reek:BooleanParameter
+# :reek:ClassVariable
+# :reek:ControlParameter
+# :reek:DataClump                   { max_copies: 2 }
+                                    { min_clump_size: 2 }
+# :reek:DuplicateMethodCall         { max_calls: 1 }
+                                    { allow_calls: ['echo.foxtrot'] }
+# :reek:FeatureEnvy
+# :reek:InstanceVariableAssumption
+# :reek:IrresponsibleModule         -- really just add a comment!
+
+Large Class
+# :reek:TooManyConstants            { max_constants: 5 }
+# :reek:TooManyInstanceVariables:   { max_instance_variables: 4 }
+# :reek:TooManyMethods:             { max_methods: 15 }
+
+# :reek:LongParameterList           { max_params: 3 }
+# :reek:LongYieldList               { max_params: 3 }
+# :reek:ManualDispatch
+# :reek:MissingSafeMethod
+# :reek:ModuleInitialize
+# :reek:NestedIterators             { max_allowed_nesting: 1 }
+# :reek:NilCheck
+# :reek:RepeatedConditional         { max_ifs: 2 }
+# :reek:SubclassedFromCoreClass
+# :reek:TooManyStatements           { max_statements: 5 }
+# :reek:UncommunicativeMethodName
+# :reek:UncommunicativeModuleName
+# :reek:UncommunicativeParameterName
+# :reek:UncommunicativeVariableName
+# :reek:UnusedParameters            -- put an '_' in front the ignored parm!
+# :reek:UnusedPrivateMethod         -- turned off by default.
+# :reek:UtilityFunction             { public_methods_only: false }
