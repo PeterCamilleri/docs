@@ -25,10 +25,10 @@ eight two input AND gates to their OR gate shadows.
 * [A Minitest Cheatsheet](Minitest_Cheatsheet.pdf) -
 a one page summary of the Minitest testing framework.
 (Open Office and PDF)
-* [rake_snippets](rake_snippets.md) -
+* [Rake Snippets](rake_snippets.md) -
 A markdown file with little rake tasks that have proven useful in gem
 development. Suitable for copy and pasting (and editing).
-* [rdoc docs](rdoc_docs.pdf) -
+* [Rdoc Docs](rdoc_docs.pdf) -
 I no longer use rdoc, but this is a useful guide to the interesting world of
 rdoc command line options.
 * [REGEX](REGEX.pdf) -
