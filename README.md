@@ -35,7 +35,7 @@ rdoc command line options.
 a one page summary of regular expressions derived from many sources.
 * [Ruby Class Summary](Ruby_Class_Summary.jpg) -
 a picture (.jpg) of the Ruby Class Hierarchy. By Jerome Dalbert.
-* [Ruby_Comparison_Operators](Ruby_Comparison_Operators.png) -
+* [Ruby Comparison Operators](Ruby_Comparison_Operators.png) -
 an unabashed snapshot from the Pick Axe book. This little gem is a snippet of
 Ruby knowledge I just can't do without.
 * [The Reek Cheat Sheet](The_Reek_Cheat_Sheet.txt) -
