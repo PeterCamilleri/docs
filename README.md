@@ -8,7 +8,8 @@ Most items will be available in both Open Office (.odt) and Portable Document
 (.pdf) formats.
 
 #### Folders
-* misc - As the name inplies, this is miscellaneous stuff.
+* ANSI - Some documents on ANSI terminal control code sequences.
+* misc - As the name implies, this is miscellaneous stuff.
 * ps_2 - This folder contains rare documents regarding the old PS/2
 interface for keyboard and mouse.
 
