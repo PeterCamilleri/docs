@@ -25,6 +25,7 @@ The test suite is accessed via:
 Sometimes there are tests that you'd like to still have, but not run as part
 of the standard unit tests. The following example shows a series of tests
 called integration tests:
+
 ```ruby
 #Run the fOOrth integration test suite.
 Rake::TestTask.new(:integration) do |t|
@@ -34,9 +35,31 @@ Rake::TestTask.new(:integration) do |t|
   t.warning = true
 end
 ```
+
 This example is accessed via:
 
     $ rake integration
+
+#### Alternate Test
+
+The test environment includes a lot of wierd, funky stuff that sometimes gets
+in the way. The alternate test task runs tests with a minimum of extra baggage.
+This often helps a lot.
+
+```ruby
+desc "Alternative test procedure"
+task :alt_test do |t|
+  here  = File.dirname(__FILE__)
+  target = "#{here}/test/*.rb"
+  puts "Target files = #{target}"
+  puts
+
+  block = "{|file| require file if File.basename(file) =~ /test/}"
+  code  = "Dir['#{target}'].each #{block}"
+
+  system "ruby -e\"#{code}\""
+end
+```
 
 ### Documentation
 
@@ -63,16 +86,24 @@ This task is accessed via:
 
     $ rake rdoc
 
+
+Note: I am moving away from rdoc on the grounds that it is often distracting
+from understanding the code and is an extra maintenance burden and is often
+out of date and thus misleading.
+
+
 ### Code Smells
 
 The reek gem is a powerful tool for identifying areas of code that may be
 improved. This snippet run a scan on the code library and records the results:
+
 ```ruby
 desc "Run a scan for smelly code!"
 task :reek do |t|
   `reek --no-color lib > reek.txt`
 end
 ```
+
 Run this via:
 
     $ rake reek
@@ -90,21 +121,22 @@ Now there are several ways to run an irb console from rake, with test code
 that rake really seems to mess up the console. The long and short of it that
 rake should be used for batch tasks, not interactive ones. Here is my
 workaround to this issue:
+
 ```ruby
 desc "Run an IRB Session with fibonacci_rng loaded."
 task :console do
   system "ruby irbt.rb local"
 end
 ```
+
 Now irbt.rb is a file that resides along with the rakefile.rb file. Here is an
 example of this file for the fibonacci_rng mentioned above:
+
 ```ruby
 # coding: utf-8
-# An IRB + fibonacci_rng test bed
+# An IRB + fibonacci_rng Test bed
 
 require 'irb'
-$force_alias_read_line_module = true
-require 'mini_readline'
 
 puts "Starting an IRB console with fibonacci_rng loaded."
 
@@ -120,6 +152,7 @@ end
 
 IRB.start
 ```
+
 This is accessed via:
 
     $ rake console
@@ -130,6 +163,7 @@ bash scripts to get things working.
 ### Versions
 
 A tiny, useful task simply identifies the version that would be built next.
+
 ```ruby
 desc "What version of the Fibonacci is this?"
 task :vers do |t|
@@ -137,6 +171,7 @@ task :vers do |t|
   puts "Fibonacci random number generator version = #{FibonacciRng::VERSION}"
 end
 ```
+
 This code only works because the bundler adds require "bundler/gem_tasks" at
 the top of the rakefile. Otherwise you'll have to require_relative the
 appropriate file on your own.
