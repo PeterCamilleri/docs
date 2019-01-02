@@ -1,7 +1,31 @@
+Reek is controlled by a file called: ".reek.yml" As you can guess, this is a
+YAML file. Here is is sample:
+
+    ---
+
+    ### Generic smell configuration
+
+    detectors:
+
+      TooManyStatements:
+        max_statements: 7
+
+      InstanceVariableAssumption:
+        enabled: false
+
+      TooManyMethods:
+        enabled: true
+
+      LongParameterList:
+        max_params: 3
+
 
 Basic Smell Options
   enabled  Boolean
   exclude  an array of strings that will be converted into regular expressions
+
+For more focus, the following can be used to hide endemic code smells wherever
+they may occur.
 
 # :reek:BooleanParameter
 # :reek:ClassVariable
