@@ -34,6 +34,8 @@ to the interesting world of rdoc command line options.
 many sources.
 * [Ruby Class Summary](Ruby_Class_Summary.jpg) - a picture (.jpg) of the Ruby
 Class Hierarchy. By Jerome Dalbert.
+* [Ruby Class Summary 2](QC8xj.png) - a nicer picture (.png) of the Ruby
+Class Hierarchy. Source unknown.
 * [Ruby Comparison Operators](Ruby_Comparison_Operators.png) - an unabashed
 snapshot from the Pick Axe book. This little gem is a snippet of Ruby knowledge
 I just can't do without.
