@@ -16,7 +16,7 @@ interface for keyboard and mouse.
 #### Files
 * [ASCII 5 ways](ASCII_5_ways.png) -
 The first 128 code points formerly called ASCII.
-* [Bell Star Codes](Bell Star Codes.pdf) - The various codes used to control phone
+* [Bell Star Codes](Bell_Star_Codes.pdf) - The various codes used to control phone
 features in the Bell Canada system. Most codes are common to other carriers too.
 * [Cmd Help](cmdhelp.pdf) - An overview of the options of the Windows standard
 CLI processor. Useful when you need to get things done in that operating system.
