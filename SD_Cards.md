@@ -37,7 +37,7 @@ MB/s| Speed Class | UHS Speed | Video Speed  |
 60  |             |           |     V60      |
 30  |             |     U3    |     V30      |
 10  |    C10      |     U1    |     V10      |
-6   |    C6       |     V6    |              |
+6   |    C6       |           |     V6       |
 4   |    C4       |           |              |
 2   |    C2       |           |              |
 
