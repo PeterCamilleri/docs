@@ -39,6 +39,8 @@ Class Hierarchy. Source unknown.
 * [Ruby Comparison Operators](Ruby_Comparison_Operators.png) - an unabashed
 snapshot from the Pick Axe book. This little gem is a snippet of Ruby knowledge
 I just can't do without.
+* [SD Cards](SD_Cards.md) An overview of the tiny miracles called SC memory
+cards.
 * [stty options](stty_doc.txt) The command line options for this most
 mysterious and enigmatic command.
 * [The Reek Cheat Sheet](The_Reek_Cheat_Sheet.txt) - A little guide I put
