@@ -3,8 +3,8 @@
 The following is derived from a [video](https://youtu.be/oLQ8A_vcBqU) on the
 channel
 [Explaining Computers](https://www.youtube.com/channel/UCbiGcwDWZjz05njNPrJU7jA).
-A channel with video so awesomely good and useful that I felt compelled to take
-notes for future reference. This document is one such case where the best
+A channel with videos so awesomely good and useful that I felt compelled to
+take notes for future reference. This document is one such case where the best
 explanation of SD cards ever is summarized.
 
 ## Card Form Factors:
@@ -19,6 +19,8 @@ Year   | Type              | Status             |
 
 ## Card Storage Capacity:
 
+Memory capacities keep on increasing:
+
 Type                      | Maximum Capacity  |
 --------------------------|:-----------------:|
 SD                        | 2G                |
@@ -28,7 +30,7 @@ SD UC (Ultra Capacity)    | 128T              |
 
 ## Card Write Speed:
 
-Since SD cards are often associated with cameras, the devices write speed is
+Since SD cards are often associated with cameras, the device's write speed is
 the most important specification in that application.
 
 MB/s| Speed Class | UHS Speed | Video Speed  |
@@ -45,7 +47,8 @@ MB/s| Speed Class | UHS Speed | Video Speed  |
 
 As SD cards are moving into applications beyond cameras, other aspects of
 performance beyond brute write speed become important. This results in an
-application rating.
+application rating which focuses on the card's ability to handle many I/O
+operations and large numbers of files.
 
 Rating |Read IOPS |Write IOPS | Write Speed |
 -------|:--------:|:---------:|:-----------:|
@@ -65,3 +68,5 @@ UHS-II     |      312       |    2 Rows  |      OK      |
 UHS-III    |      624       |    2 Rows  | Not adopted? |
 SD Express |      985       |    2 Rows  | Leading edge |
 
+Note: It very much looks like the UHS-III interface is being skipped over
+in favor of SD Express.
